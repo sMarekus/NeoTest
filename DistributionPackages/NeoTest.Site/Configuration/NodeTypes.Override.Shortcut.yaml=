@@ -1,0 +1,6 @@
+
+'Neos.Neos:Shortcut':
+  constraints:
+    nodeTypes:
+      'NeoTest.Site:Document.HomePage': false
+      'NeoTest.Site:Constraint.Document.Restricted': false

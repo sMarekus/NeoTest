@@ -1,0 +1,9 @@
+prototype(NeoTest.Site:Component.DefaultLayout) < prototype(Neos.Fusion:Component) {
+    content = ''
+
+    renderer = afx`
+        <NeoTest.Site:Component.Header />
+        {props.content}
+        <NeoTest.Site:Component.Footer />
+    `
+}
